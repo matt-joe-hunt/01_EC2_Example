@@ -1,6 +1,6 @@
 variable "region-master" {
   type    = string
-  default = "eu-west-1"
+  default = "eu-west-2"
 }
 
 variable "instance-type" {
@@ -12,5 +12,5 @@ variable "instance-type" {
 variable "instance-name" {
   type        = string
   description = "the name that we will give to our instance by setting its Tags"
-  default     = "my-first-instance"
+  default     = "01_my_first_instance"
 }
